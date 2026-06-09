@@ -1,0 +1,29 @@
+num,control,owning_section,DORA,EU_AI_Act,FCA_PRA,PCI_DSS,UK_EU_GDPR,source
+1,Autonomy-spectrum classification & agent-topology mapping,C02-S2,,,,,,CL-044 / book Part VI
+2,Deployment topology & data-residency selection,C02-S1,,,,,,CL-044 / book Part VI
+3,AI threat-model template & framework application,C04-S1,,,,,,CL-044 / book Part VI
+4,FS abuse-case assessment,C04-S2,,,,,,CL-044 / book Part VI
+5,Prompt-injection defence (direct & indirect),C05-S1,,,,,,CL-044 / book Part VI
+6,Excessive-autonomy & tool-abuse mitigation,C05-S2,,,,,,CL-044 / book Part VI
+7,MCP / connector supply-chain threat assessment,C06-S1,,,,,,CL-044 / book Part VI
+8,Data-exfiltration-path control,C06-S2,,,,,,CL-044 / book Part VI
+9,Model/data-poisoning & provenance control,C07-S1,,,,,,CL-044 / book Part VI
+10,Agent identity & least-privilege,C08-S2,,,,,,CL-044 / book Part VI
+11,Decisioning-domain human-in-the-loop pattern,C08-S2,,,,,,CL-044 / book Part VI
+12,MCP / model supply-chain hardening,C08-S3,,,,,,CL-044 / book Part VI
+13,AI gateway / control-plane,C08-S4,,,,,,CL-044 / book Part VI
+14,Control-placement motif (gateway/runtime/MCP/endpoint),C08-S4,,,,,,CL-044 / book Part VI
+15,Gateway-config → obligations-evidenced crosswalk,C18-S1,,,,,,CL-044 / book Part VI
+16,AI data-protection control,C09-S1,,,,,,CL-044 / book Part VI
+17,PCI scope-reduction architecture,C09-S2,,,,,,CL-044 / book Part VI
+18,AI-provider data-handling contracts (ZDR etc.),C15-S1,,,,,,CL-044 / book Part VI
+19,AI observability / telemetry,C11-S2,,,,,,CL-044 / book Part VI
+20,Runtime containment (kill switch / circuit breaker),C11-S3,,,,,,CL-044 / book Part VI
+21,Resilience & IR control design,"C12-S1, C12-S2",,,,,,CL-044 / book Part VI
+22,AI governance operating model,C13-S1,,,,,,CL-044 / book Part VI
+23,Firm-internal AI risk-tiering,C13-S2,,,,,,CL-044 / book Part VI
+24,MRM-as-control for genAI,C14-S1,,,,,,CL-044 / book Part VI
+25,Third-party AI governance,C15-S1,,,,,,CL-044 / book Part VI
+26,FAIR risk quantification,C16-S1,,,,,,CL-044 / book Part VI
+27,Assurance / evidence map,C17-S1,,,,,,CL-044 / book Part VI
+28,Master control-×-regime crosswalk,C18-S1,,,,,,CL-044 / book Part VI

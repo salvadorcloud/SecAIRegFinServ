@@ -1,0 +1,42 @@
+# Consolidated control catalogue
+
+The book's controls in one place. Each row names the control, its **owning section** (where the
+design and caveats live), and its entry point into the Part VI regime mapping. The regime column
+**restates no obligation** — it points to the master control-×-regime crosswalk (**CL-044, C18-S1**),
+the single authoritative mapping of controls to DORA, the EU AI Act, FCA rules, UK/EU GDPR, and PCI
+DSS. To see *which* regimes a control evidences, follow the row into the crosswalk in the book; this
+catalogue tells you only *where to look*. Distilled from Appendix B of the book; the owning chapter governs.
+
+| # | Control | Owning section | Regime mapping |
+|---|---------|----------------|----------------|
+| 1 | Autonomy-spectrum classification & agent-topology mapping | C02-S2 | via CL-044 (C18-S1) |
+| 2 | Deployment topology & data-residency selection | C02-S1 | via CL-044 (C18-S1) |
+| 3 | AI threat-model template & framework application | C04-S1 | via CL-044 (C18-S1) |
+| 4 | FS abuse-case assessment | C04-S2 | via CL-044 (C18-S1) |
+| 5 | Prompt-injection defence (direct & indirect) | C05-S1 | via CL-044 (C18-S1) |
+| 6 | Excessive-autonomy & tool-abuse mitigation | C05-S2 | via CL-044 (C18-S1) |
+| 7 | MCP / connector supply-chain threat assessment | C06-S1 | via CL-044 (C18-S1) |
+| 8 | Data-exfiltration-path control | C06-S2 | via CL-044 (C18-S1) |
+| 9 | Model/data-poisoning & provenance control | C07-S1 | via CL-044 (C18-S1) |
+| 10 | Agent identity & least-privilege | C08-S2 | via CL-044 (C18-S1) |
+| 11 | Decisioning-domain human-in-the-loop pattern | C08-S2 | via CL-044 (C18-S1) |
+| 12 | MCP / model supply-chain hardening | C08-S3 | via CL-044 (C18-S1) |
+| 13 | AI gateway / control-plane | C08-S4 | via CL-044 (C18-S1) |
+| 14 | Control-placement motif (gateway/runtime/MCP/endpoint) | C08-S4 | via CL-044 (C18-S1) |
+| 15 | Gateway-config → obligations-evidenced crosswalk | C18-S1 | via CL-044 (C18-S1) |
+| 16 | AI data-protection control | C09-S1 | via CL-044 (C18-S1) |
+| 17 | PCI scope-reduction architecture | C09-S2 | via CL-044 (C18-S1) |
+| 18 | AI-provider data-handling contracts (ZDR etc.) | C15-S1 | via CL-044 (C18-S1) |
+| 19 | AI observability / telemetry | C11-S2 | via CL-044 (C18-S1) |
+| 20 | Runtime containment (kill switch / circuit breaker) | C11-S3 | via CL-044 (C18-S1) |
+| 21 | Resilience & IR control design | C12-S1, C12-S2 | via CL-044 (C18-S1) |
+| 22 | AI governance operating model | C13-S1 | via CL-044 (C18-S1) |
+| 23 | Firm-internal AI risk-tiering | C13-S2 | via CL-044 (C18-S1) |
+| 24 | MRM-as-control for genAI | C14-S1 | via CL-044 (C18-S1) |
+| 25 | Third-party AI governance | C15-S1 | via CL-044 (C18-S1) |
+| 26 | FAIR risk quantification | C16-S1 | via CL-044 (C18-S1) |
+| 27 | Assurance / evidence map | C17-S1 | via CL-044 (C18-S1) |
+| 28 | Master control-×-regime crosswalk | C18-S1 | CL-044 (C18-S1, authoritative) |
+
+> *Practitioner aid, provided "as is", not legal or compliance advice. Verify each control against its
+> owning chapter before you rely on it.*
