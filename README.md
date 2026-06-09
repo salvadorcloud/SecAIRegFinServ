@@ -29,13 +29,10 @@ artefact here and its owning chapter ever appear to diverge, **the book governs*
 - **Audit an estate:** work `control-catalogue` row by row — confirm each control exists, is owned, and is evidenced (assurance map), then trace it into the book's crosswalk.
 - **Build a board/regulator pack:** pair the catalogue with the FAIR quantification (C16) and the assurance map (C17).
 
-## Licence — ACTION NEEDED (reconcile before launch)
+## Licence
 
-The book's back matter states the companion is dual-licensed: **code, configuration, and data
-(catalogue/crosswalk CSVs) under the MIT License**, and **templates, checklists, playbooks, and
-documentation under CC BY 4.0**, with attribution to **Salvador Cloud Ltd**. This repository currently
-ships an **Apache-2.0 `LICENSE`** instead. **Pick one and make the book and repo agree** before
-launch — either replace `LICENSE` with `LICENSE-MIT` + `LICENSE-CC-BY-4.0`, or change the book's
-back-matter wording to Apache-2.0.
+All companion materials are © 2026 Salvador Cloud Ltd and are released under the **MIT License**
+(see `LICENSE`) — free to use, copy, modify, and distribute, provided the copyright and licence
+notice (attribution to Salvador Cloud Ltd) is kept with any copy or adaptation.
 
 © 2026 Salvador Cloud Ltd.
