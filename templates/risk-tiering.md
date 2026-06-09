@@ -1,12 +1,12 @@
 # AI use-case risk-tiering template
-*Owner: C13-S2 (firm-internal tiering). Tier drives control depth and oversight.*
+*Owner: Chapter 13 (firm-internal tiering). Tier drives control depth and oversight.*
 
 | Factor | Score / band | Notes |
 |---|---|---|
 | Data sensitivity | | |
-| Autonomy level (C02-S2) | | |
+| Autonomy level (Chapter 2) | | |
 | Customer / market impact | | |
-| Decisioning domain? (HITL — C08-S2) | | |
+| Decisioning domain? (HITL — Chapter 8) | | |
 
 **Assigned tier (worst-case roll-up):** ____
 **Control depth & oversight this tier requires:** ____

@@ -1,17 +1,17 @@
 # AI threat-model template
-*Owner: C04-S1 (method) · C02-S2 (autonomy/topology) · C04-S2 (FS abuse cases)*
+*Owner: Chapter 4 (method) · Chapter 2 (autonomy/topology) · Chapter 4 (FS abuse cases)*
 
 ## 1. System
 - System / capability:
 - Owner & date:
-- Autonomy level (per C02-S2 spectrum):
+- Autonomy level (per Chapter 2 spectrum):
 - Agent topology (diagram link):
-- Deployment topology & data residency (C02-S1):
+- Deployment topology & data residency (Chapter 2):
 
 ## 2. Frameworks applied
 - [ ] OWASP Top 10 for LLM Applications (2025)
 - [ ] MITRE ATLAS
-- [ ] STRIDE-for-AI (per C04-S1)
+- [ ] STRIDE-for-AI (per Chapter 4)
 
 ## 3. Trust boundaries
 | Boundary | Untrusted inputs crossing it | Notes |
@@ -21,7 +21,7 @@
 | # | Threat (frameworks) | Affected component | Mitigation / accepted-risk | Owning control |
 |---|---|---|---|---|
 
-## 5. FS abuse cases (C04-S2)
+## 5. FS abuse cases (Chapter 4)
 | Abuse case | In scope? | Rationale | Control |
 |---|---|---|---|
 | Fraud | | | |
