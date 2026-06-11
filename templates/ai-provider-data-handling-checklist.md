@@ -3,10 +3,12 @@
 
 - [ ] Zero-data-retention (or equivalent) terms in writing
 - [ ] No training on your data without explicit opt-in
+- [ ] Abuse-monitoring / human-review opt-out (or a named, contained disclosure path where a full opt-out is unavailable)
 - [ ] Sub-processor list & change notice
 - [ ] Data residency / sovereignty commitments (reconcile with Chapter 2)
-- [ ] Security & resilience commitments; right to audit / evidence
-- [ ] Incident notification terms (feed your IR — Chapter 12)
+- [ ] Security & resilience commitments
+- [ ] Audit & information rights, including pooled / third-party audit where direct audit is refused
+- [ ] Incident notification terms (feed your IR, Chapter 12)
 - [ ] Exit / portability & deletion on termination
 - [ ] Concentration-risk view if provider is systemic (Chapter 15)
 

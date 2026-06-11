@@ -1,4 +1,4 @@
-# Kill-switch / containment decision aid (fillable)
+# Kill-switch / containment decision aid (fillable) (AR-003)
 
 **Purpose.** A decision tree for choosing *which* containment control to invoke and at *what
 scope* during an AI incident, so the responder follows a pre-agreed path rather than a

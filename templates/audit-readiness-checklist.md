@@ -25,7 +25,7 @@ unchecked items become rows in the register's open-gap summary.
 | F-1 | Assurance map seeded from the current use-case inventory; every in-scope use case is a row-set | [ ] | | |
 | F-2 | Evidence depth tied to each use case's risk tier (no gold-plating, no under-evidencing of high tiers) | [ ] | | |
 | F-3 | Every control carries all three evidence types: design, operating, oversight | [ ] | | |
-| F-4 | Each control tagged with enforcement placement (gateway / agent runtime / MCP connector / endpoint) | [ ] | | |
+| F-4 | Each control tagged with enforcement placement (gateway / agent runtime / MCP server/connector / endpoint) | [ ] | | |
 | F-5 | Map points at evidence locations; it does not copy evidence in | [ ] | | |
 | F-6 | Refresh cadence set and met: continuous (machine) + quarterly/on-change (design + oversight) | [ ] | | |
 

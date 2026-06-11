@@ -79,7 +79,8 @@ control with where it is enforced, because that is where its operating evidence 
 **Common control families to draw rows from** (build your own from your control inventory;
 each names the book chapter to read, not an obligation):
 
-- Scoped agent/workload identity; least-privilege tool scoping + HITL gates (Chapter 8)
+- Scoped agent/workload identity (its evidence, e.g. identity issuance/rotation logs and access-review minutes, differs from tool-scoping evidence) (Chapter 8)
+- Least-privilege tool scoping + HITL gates (Chapter 8)
 - MCP / model supply-chain hardening; AI gateway controls (Chapter 8)
 - Data-protection controls: minimisation, redaction, tenancy isolation (Chapter 9)
 - Guardrails + isolation; build-time AI red-teaming + AI-aware SDLC (Chapter 10)
