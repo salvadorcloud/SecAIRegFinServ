@@ -29,7 +29,7 @@ the three trust boundaries once, then map weaknesses and attack paths onto them.
 | # | Boundary (TB-1/2/3) | Threat (framework) | Affected component | Mitigation / accepted-risk | Owning control |
 |---|---|---|---|---|---|
 
-## 5. Adversary paths (Step 3 — trace at least one path from untrusted input to regulated-system impact)
+## 5. Adversary paths (Step 3: trace at least one path from untrusted input to regulated-system impact)
 | # | Path (recon → initial access → execution → impact) | FS impact reached | Priority (monetisation × autonomy × irreversibility) |
 |---|---|---|---|
 | | | | |
@@ -38,7 +38,7 @@ the three trust boundaries once, then map weaknesses and attack paths onto them.
 (TB-2 excessive agency) → transfer initiated and cleared (irreversible money movement). Autonomy:
 act-with-guardrails. Priority: high (directly monetisable, autonomous, irreversible).
 
-## 6. FS abuse cases (Chapter 4 base catalogue — weight by monetisation × autonomy × irreversibility)
+## 6. FS abuse cases (Chapter 4 base catalogue, weighted by monetisation × autonomy × irreversibility)
 | Abuse case | Reachable here? | Autonomy at which it becomes acute | Boundary exploited | Control |
 |---|---|---|---|---|
 | Money movement | | act-with-guardrails → autonomous | TB-2 | |
