@@ -29,8 +29,8 @@ The running use case for the worked rows is a **fictional FS AI use case**: an i
 **"AML analyst copilot"** that drafts narrative summaries of transaction-monitoring alerts for a
 human investigator. It must reach only an approved model, must never echo cardholder data, must be
 rate- and cost-bounded, must keep EU-customer data in-region, and must leave a tamper-evident
-trail. (Illustrative only; the SAR/STR suspicion determination remains a human/MLRO judgment, per
-**Chapter 8** and **Chapter 4**.)
+trail. (Illustrative only; the SAR/STR suspicion determination remains a human/MLRO/nominated-officer
+legal judgment, and AML/CTF law is out of this book's mapped scope, per **Chapter 8** and **Chapter 4**.)
 
 ---
 
@@ -205,7 +205,11 @@ reason := "un-tokenised cardholder data (PAN) at egress" if deny_egress
 
 **Intent.** Run the guardrail policy at the boundary. The gateway is where guardrails are
 **enforced**; the guardrail **design** (layered input/output guardrails, isolation, quarantine) is
-owned in **Chapter 10**. The gateway runs the policy; it does not define it.
+owned in **Chapter 10**. The gateway runs the policy; it does not define it. Note: unlike the
+default-deny capabilities above, this policy defaults `allow := true` and flips to deny on a block
+verdict, because here the gateway *enforces a verdict produced elsewhere*. That presumes the guardrail
+layer always supplies a verdict; if it can be absent, treat a missing verdict as a block (fail closed)
+to avoid a fail-open gap.
 
 ```rego
 # ILLUSTRATIVE ONLY: pseudo-policy, not runnable.

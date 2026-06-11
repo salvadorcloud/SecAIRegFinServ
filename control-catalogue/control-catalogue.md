@@ -1,4 +1,4 @@
-# Consolidated control catalogue
+# Consolidated control catalogue (AR-007)
 
 **Purpose.** The book's controls in one place, as importable data. Each row names the
 control, the **chapter that owns it** (where the design, caveats, and sources live), and the
@@ -36,9 +36,9 @@ Act (Chapter 24).
 | 10 | Agent identity & least-privilege | Chapter 8 | PCI access control/authN (Chapter 22); EU AI Act oversight (Chapter 20) |
 | 11 | Decisioning-domain human-in-the-loop pattern | Chapter 8 | EU AI Act Art 14 oversight (Chapter 20); GDPR Art 22 ADM floor (Chapter 23) |
 | 12 | MCP / model supply-chain hardening | Chapter 8 | NIS2/UK NIS/CRA supply-chain & CRA SBOM (Chapter 24); EU AI Act cybersecurity (Chapter 20) |
-| 13 | AI gateway / control-plane | Chapter 8 | DORA (Chapter 19), EU AI Act (Chapter 20), FCA/PRA (Chapter 21), PCI (Chapter 22), GDPR (Chapter 23) (see gateway crosswalk, Chapter 18) |
+| 13 | AI gateway / control-plane | Chapter 8 | DORA (Chapter 19), EU AI Act (Chapter 20), FCA/PRA (Chapter 21), PCI (Chapter 22), GDPR (Chapter 23), NIS2/UK NIS/CRA (Chapter 24) (see gateway crosswalk, Chapter 18) |
 | 14 | Control-placement motif (gateway/runtime/MCP/endpoint) | Chapter 8 | none mapped (an architecture motif; obligations attach to the placed controls) |
-| 15 | Gateway-config-to-obligations-evidenced crosswalk | Chapter 18 | DORA, EU AI Act, FCA/PRA, PCI, GDPR (Chapters 19 to 23; owned in Chapter 18) |
+| 15 | Gateway-config-to-obligations-evidenced crosswalk | Chapter 18 | all six regimes (Chapters 19 to 24; sparse NIS2/UK NIS/CRA entries; owned in Chapter 18) |
 | 16 | AI data-protection control | Chapter 9 | GDPR lawful basis/minimisation (Chapter 23); PCI stored-account-data (Chapter 22) |
 | 17 | PCI scope-reduction architecture | Chapter 9 | PCI stored-account-data scope (Chapter 22) |
 | 18 | AI-provider data-handling contracts (ZDR etc.) | Chapter 15 | DORA third-party (Chapter 19); FCA/PRA outsourcing (Chapter 21); GDPR transfers (Chapter 23); NIS2 supplier duty (Chapter 24) |
@@ -65,7 +65,7 @@ might read:
 
 | Field | Example value |
 |---|---|
-| Control # / name | 10 — Agent identity & least-privilege |
+| Control # / name | 10, Agent identity & least-privilege |
 | Owning chapter (read for design) | Chapter 8 |
 | Regimes it answers | PCI access control/authN (Chapter 22); EU AI Act oversight (Chapter 20) |
 | Owner (your firm) | Platform security lead, AI assistant squad |

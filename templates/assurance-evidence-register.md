@@ -49,6 +49,8 @@ for trivial use cases.
 
 ## Section B - Evidence items
 
+*The retention windows in the sample rows below (18 months, 6 years) are illustrative placeholders, not recommended defaults. Set each window from your own obligations and retention schedule.*
+
 | # | Use case (tier) | Control (placement) | Evidence type (design / operating / oversight) | Source (machine / human) | Where it lives (system) | Retention window | Status (Present / Gap / Stale / Past-retention) | Last verified | Remediation owner / target date |
 |---|---|---|---|---|---|---|---|---|---|
 | EX-1 | Customer-facing servicing copilot (Tier 1 / high) | HITL gates on account actions (agent runtime) | Operating | Machine | SIEM `agent-actions` index | 18 months | Present | _yyyy-mm-dd_ | n/a |

@@ -1,4 +1,4 @@
-# AI incident-response runbook (fillable)
+# AI incident-response runbook (fillable) (AR-003)
 
 **Purpose.** A fillable runbook for responding to an AI-specific incident (an injected
 agent action, a copilot data leak, a rogue agent, a poisoned model or connector) across the
@@ -62,7 +62,7 @@ Detection signals come from runtime telemetry (Chapter 11). The output of this p
 
 | Field | Entry |
 |---|---|
-| Triggering signal | *e.g. anomalous tool-call alert, guardrail-bypass alert, over-retrieval spike, denial-of-wallet spend alarm, customer report* |
+| Triggering signal | *e.g. anomalous tool-call alert, guardrail-bypass alert, over-retrieval spike, denial-of-wallet spend alarm, behavioural-baseline drift / off-task deviation, customer report* |
 | Source layer | *gateway / agent-runtime / MCP / endpoint (Chapter 11 placement)* |
 | Category (1 to 4) | |
 | First-cut blast radius | *one session / one principal / one tenant / one connector / whole service* |
@@ -93,6 +93,7 @@ checklist; do not skip the handoff line even if you are unsure it is reportable.
 - [ ] Evidence-preservation switched on (Phase 3 trace and state capture confirmed running).
 - [ ] Model owner engaged where the question is "is this a compromise or expected
   non-deterministic variation?" (only they can answer it; see Chapter 12).
+- [ ] DPO / privacy engaged if a regulated-data leak (category 2) is in scope.
 
 **Standing fact set for the regulatory handoff (capture once, hand over):**
 
