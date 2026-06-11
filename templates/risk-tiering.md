@@ -3,11 +3,15 @@
 
 Score the three factors below; the assigned tier is the worst-case roll-up.
 
-| Factor | Score / band | Notes |
+Band each factor low / medium / high (set your own scoring scale; the tier is the highest band reached).
+
+| Factor | Band (low / med / high) | Notes |
 |---|---|---|
 | Data sensitivity | | |
 | Autonomy level (Chapter 2) | | |
 | Customer / market impact | | |
+
+*Worked example (illustrative):* a customer-servicing copilot that reads account data (data sensitivity: high), acts with guardrails on low-value changes (autonomy: medium), and faces customers directly (impact: high) rolls up worst-case to a **high** tier.
 
 **Floor input (not a scored factor):** if the use case acts in a decisioning domain, the
 agreed human-in-the-loop pattern (Chapter 8) sets a control floor regardless of the scored tier.

@@ -9,7 +9,7 @@ num,control,owning_chapter,regimes_answered
 8,Data-exfiltration-path control,Chapter 6,GDPR minimisation (Chapter 23); PCI data protection (Chapter 22)
 9,Model/data-poisoning & provenance control,Chapter 7,EU AI Act high-risk robustness/cybersecurity (Chapter 20); NIS2/CRA supply chain (Chapter 24)
 10,Agent identity & least-privilege,Chapter 8,PCI access control/authN (Chapter 22); EU AI Act oversight (Chapter 20)
-11,Decisioning-domain human-in-the-loop pattern,Chapter 8,EU AI Act Art 14 oversight (Chapter 20); GDPR Art 22 ADM floor (Chapter 23)
+11,Decisioning-domain human-in-the-loop pattern,Chapter 8,EU AI Act Art 14 oversight (Chapter 20); GDPR automated-decisioning floor (Art 22 EU / s.4A UK) (Chapter 23)
 12,MCP / model supply-chain hardening,Chapter 8,NIS2/UK NIS/CRA supply-chain & CRA SBOM (Chapter 24); EU AI Act cybersecurity (Chapter 20)
 13,AI gateway / control-plane,Chapter 8,"DORA (Chapter 19), EU AI Act (Chapter 20), FCA/PRA (Chapter 21), PCI (Chapter 22), GDPR (Chapter 23), NIS2/UK NIS/CRA (Chapter 24) (see gateway crosswalk, Chapter 18)"
 14,Control-placement motif (gateway/runtime/MCP/endpoint),Chapter 8,none mapped (an architecture motif; obligations attach to the placed controls)

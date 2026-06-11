@@ -1,4 +1,4 @@
-num,control,owning_section,DORA,EU_AI_Act,FCA_PRA,PCI_DSS,UK_EU_GDPR,NIS2_UKNIS_CRA,owner,status_gap,source
+num,control,owning_chapter,DORA,EU_AI_Act,FCA_PRA,PCI_DSS,UK_EU_GDPR,NIS2_UKNIS_CRA,owner,status_gap,source
 1,Autonomy-spectrum classification & agent-topology mapping,Chapter 2,,,,,,,,,Chapter 18 / book Part VI
 2,Deployment topology & data-residency selection,Chapter 2,,,,,,,,,Chapter 18 / book Part VI
 3,AI threat-model template & framework application,Chapter 4,,,,,,,,,Chapter 18 / book Part VI

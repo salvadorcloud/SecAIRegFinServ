@@ -1,5 +1,5 @@
 # AI threat-model template (AR-001)
-*Owner: Chapter 4 (method) · Chapter 2 (autonomy/topology) · Chapter 4 (FS abuse cases)*
+*Owner: Chapter 4 (method, C04-S1) · Chapter 2 (autonomy/topology) · Chapter 4 (FS abuse cases, C04-S2)*
 
 Run the three-lens, single-pass method from Chapter 4: STRIDE-for-AI to find the boundaries,
 OWASP LLM for the weaknesses at each, MITRE ATLAS to trace adversary paths to FS impact. Find
@@ -48,8 +48,10 @@ act-with-guardrails. Priority: high (directly monetisable, autonomous, irreversi
 | Market abuse | | suggest → autonomous | TB-1 / TB-2 | |
 | Sanctions evasion | | act-with-guardrails → autonomous | TB-1 → TB-2 | |
 
-*The customer-harm (Cluster A) and detection/onboarding (Cluster B) cases in Chapter 4 extend
-this base set; add the rows relevant to this system's capability and data access.*
+*Extend with the Chapter 4 cases relevant to this system's capability and data access (add a row each):*
+- *Base extensions: compliance-pipeline abuse (alert suppression/flooding); dispute & chargeback manipulation.*
+- *Cluster A (customer is the victim): account takeover via the servicing AI; scam / APP-fraud via the external-facing AI (the consumer-outcome obligation is owned in Chapter 21).*
+- *Cluster B (detection / onboarding models): KYC / CDD onboarding bypass and synthetic identity; detection-model poisoning (mechanism owned in Chapter 7); threshold / calibration evasion; allow-list / trusted-entity poisoning; fabricated and first-party dispute fraud.*
 
 ## 7. Residual risk & sign-off
 - Residual risks accepted by (named owner) / date:
