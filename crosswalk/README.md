@@ -1,7 +1,7 @@
 # Control-to-regulation crosswalk (AR-006)
 
-The **authoritative** control-by-regime crosswalk is **Chapter 18 ("The Control-to-Regulation
-Mapping")** in the book, with the per-regime detail in Chapters 19 to 24 (DORA, EU AI Act, FCA/PRA,
+The **authoritative** control-by-regime crosswalk is **Chapter 19 ("The Control-to-Regulation
+Mapping")** in the book, with the per-regime detail in Chapters 20 to 25 (DORA, EU AI Act, FCA/PRA,
 PCI DSS, UK/EU GDPR, and NIS2/UK NIS/EU CRA). The book deliberately states each regulatory obligation
 **once**, in Part VI, and does not reproduce obligation text elsewhere, so this repository does **not**
 duplicate the obligation cells.

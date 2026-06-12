@@ -50,7 +50,7 @@ act-with-guardrails. Priority: high (directly monetisable, autonomous, irreversi
 
 *Extend with the Chapter 4 cases relevant to this system's capability and data access (add a row each):*
 - *Base extensions: compliance-pipeline abuse (alert suppression/flooding); dispute & chargeback manipulation.*
-- *Cluster A (customer is the victim): account takeover via the servicing AI; scam / APP-fraud via the external-facing AI (the consumer-outcome obligation is owned in Chapter 21).*
+- *Cluster A (customer is the victim): account takeover via the servicing AI; scam / APP-fraud via the external-facing AI (the consumer-outcome obligation is owned in Chapter 22).*
 - *Cluster B (detection / onboarding models): KYC / CDD onboarding bypass and synthetic identity; detection-model poisoning (mechanism owned in Chapter 7); threshold / calibration evasion; allow-list / trusted-entity poisoning; fabricated and first-party dispute fraud.*
 
 ## 7. Residual risk & sign-off

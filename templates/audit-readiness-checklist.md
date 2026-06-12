@@ -9,7 +9,7 @@ box to fudge. Assemble every external pack *from* the assurance map, never the r
 **When to use.** Run before an internal-audit cycle, a SOC 2 / ISO 42001 readiness
 assessment, a major enterprise due-diligence questionnaire, or whenever a supervisory
 examination is foreseeable. See **Chapter 17** of the book for internal-audit readiness,
-the external-assurance evidence pack, and regulator-query readiness; see **Chapter 18** for
+the external-assurance evidence pack, and regulator-query readiness; see **Chapter 19** for
 the obligation mapping this checklist points to but does not restate.
 
 **How it fits.** This checklist sits on top of the assurance map
@@ -57,7 +57,7 @@ unchecked items become rows in the register's open-gap summary.
 
 | # | Check | Done? | Evidence / location | Notes |
 |---|---|---|---|---|
-| RQ-1 | Every regulatory thread resolves to Part VI: evidence half from the map, obligation half from the Chapter 18 crosswalk; no obligation paraphrased from memory | [ ] | | |
+| RQ-1 | Every regulatory thread resolves to Part VI: evidence half from the map, obligation half from the Chapter 19 crosswalk; no obligation paraphrased from memory | [ ] | | |
 | RQ-2 | Gateway leads, then deeper: gateway evidence answers first-round questions; placement tags lead into agent-runtime / connector / endpoint evidence when the query goes past the chokepoint | [ ] | | Gateway is necessary, not sufficient (Chapter 8) |
 | RQ-3 | Board-level residual-risk context ready: quantified loss-exposure ranges referenced, not re-derived (Chapter 16) | [ ] | | |
 

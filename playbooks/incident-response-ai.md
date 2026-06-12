@@ -173,7 +173,7 @@ Remove the cause so the incident cannot immediately recur. The AI-specific work 
 ## Phase 5: recover
 
 Restore the service within its impact tolerance (a Part VI concept; the *tolerance* itself is
-owned in Chapters 19 and 21, not here). For AI, restoring **availability is not the same as
+owned in Chapters 20 and 22, not here). For AI, restoring **availability is not the same as
 restoring correct behaviour**: re-run the behavioural and guardrail checks before the restored
 path carries live traffic (DR-for-AI discipline, Chapter 12).
 

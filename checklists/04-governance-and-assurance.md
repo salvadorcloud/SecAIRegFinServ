@@ -8,7 +8,7 @@ Run this at the governance forum that owns AI risk. It closes the loop from oper
 - [ ] **Third-party AI governance** covers onboarding, monitoring, and concentration risk; owner **Chapter 15**. *Done when:* each provider has an onboarding record, a monitoring cadence, and a concentration view.
 - [ ] AI risk **quantified with FAIR** in loss terms the board can act on; owner **Chapter 16**. *Done when:* the material AI risks carry a FAIR loss estimate in monetary terms.
 - [ ] An **assurance / evidence map** ties each control to operating evidence; owner **Chapter 17**. *Done when:* every catalogue control links to a named, locatable piece of operating evidence.
-- [ ] Control effectiveness read against the **master control-by-regime crosswalk**; owner **Chapter 18**. *Done when:* each control has been traced into the crosswalk to confirm the regimes it evidences.
+- [ ] Control effectiveness read against the **master control-by-regime crosswalk**; owner **Chapter 19**. *Done when:* each control has been traced into the crosswalk to confirm the regimes it evidences.
 
 > *Practitioner aid, not a compliance position. Each item names its **owning chapter** in the book;
 > where a line and its owning chapter diverge, the chapter governs.*

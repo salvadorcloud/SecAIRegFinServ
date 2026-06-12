@@ -5,8 +5,8 @@ LLMs, Agents, MCP, and Copilots in Banks and Fintechs under DORA, the EU AI Act,
 DSS* by Giovanni Salvador (Salvador Cloud Ltd).
 
 This pack is a **faithful distillation of the book, and nothing more**. It restates no regulatory
-obligation: Part VI of the book (Chapters 18 to 23) owns every obligation, and the master
-control-by-regime crosswalk in **Chapter 18** is the single authoritative mapping. Where any
+obligation: Part VI of the book (Chapters 19 to 24) owns every obligation, and the master
+control-by-regime crosswalk in **Chapter 19** is the single authoritative mapping. Where any
 artefact here and its owning chapter ever appear to diverge, **the book governs**.
 
 > These materials are provided **"as is", without warranty of any kind**, and are practitioner aids,
@@ -25,14 +25,14 @@ points to where the book governs the topic; read your obligations there, never o
 | AI incident-response playbooks | AR-003 | `playbooks/` | AI incident-response and kill-switch / containment decision skeletons | Chapter 12 (IR); Chapter 11 (runtime) |
 | DPIA + risk-tiering templates | AR-004 | `templates/dpia.md`, `templates/risk-tiering.md`, `templates/use-case-inventory.md` | A DPIA / data-protection worksheet and a use-case risk-tiering and inventory set | Chapter 9 (DPIA); Chapter 13 (tiering and inventory) |
 | Assurance evidence pack | AR-005 | `templates/assurance-evidence-map.md`, `templates/assurance-evidence-register.md`, `templates/audit-readiness-checklist.md` | The control-to-evidence map, evidence register, and audit-readiness checklist | Chapter 17 |
-| Control-to-regulation crosswalk | AR-006 | `crosswalk/` | A crosswalk **template** to populate from the book's Part VI | Chapter 18 |
-| AI-security control catalogue | AR-007 | `control-catalogue/` | The consolidated control catalogue (Markdown + CSV) for import into your register | Appendix B (Chapter 28); Chapter 18 |
+| Control-to-regulation crosswalk | AR-006 | `crosswalk/` | A crosswalk **template** to populate from the book's Part VI | Chapter 19 |
+| AI-security control catalogue | AR-007 | `control-catalogue/` | The consolidated control catalogue (Markdown + CSV) for import into your register | Appendix B (Chapter 29); Chapter 19 |
 
 Two further fillable sets ship alongside the indexed artifacts:
 
 | Set | Path | What it is | Owning chapter(s) |
 |---|---|---|---|
-| Lifecycle checklists | `checklists/` | The four lifecycle checklists (threat-model, secure design, runtime/IR, governance) | Appendix B (Chapter 28) |
+| Lifecycle checklists | `checklists/` | The four lifecycle checklists (threat-model, secure design, runtime/IR, governance) | Appendix B (Chapter 29) |
 | Provider data-handling checklist | `templates/ai-provider-data-handling-checklist.md` | A contract checklist for every external model or connector provider | Chapter 15 |
 
 ## How to use

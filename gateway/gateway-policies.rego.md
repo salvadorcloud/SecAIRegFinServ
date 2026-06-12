@@ -13,9 +13,9 @@ capability by capability when designing or reviewing the AI gateway.
 > for whatever your gateway exposes. Translate the *intent*, not the syntax.
 
 > Provided **"as is"**, **not legal or compliance advice**. The owning chapter governs: where this
-> pack and **Chapter 8** (or, for obligations, **Chapter 18** / Part VI) diverge, **the book
+> pack and **Chapter 8** (or, for obligations, **Chapter 19** / Part VI) diverge, **the book
 > governs**. The gateway *helps evidence* obligations; it does not discharge them. Read obligations
-> off **Chapter 18** / Part VI, never off this file.
+> off **Chapter 19** / Part VI, never off this file.
 
 A shared decision shape is assumed throughout: every policy returns an `allow` / `deny` with a
 `reason`, and **every decision is written to the audit trail** (capability 8). Nothing is silently
@@ -280,7 +280,7 @@ reason := "daily cost cap exceeded" if input.window.spend_usd > data.limits[inpu
 
 **Intent.** Route inference to the region/provider that satisfies residency requirements. The
 gateway **routes to satisfy** obligations; the obligations themselves are owned in Part VI and the
-crosswalk to them is **Chapter 18**. Design framing owned in **Chapter 8**.
+crosswalk to them is **Chapter 19**. Design framing owned in **Chapter 8**.
 
 ```rego
 # ILLUSTRATIVE ONLY: pseudo-policy, not runnable.
@@ -307,7 +307,7 @@ reason := sprintf("no in-region route for data class %v", [input.data_class]) if
 | `uk-customer-pii` | `uk` | `inference-uk-south` | route in-region |
 
 > **Guidance.** Residency *routing* is a gateway capability; the residency *obligation* is not the
-> gateway's to define. Read which obligation applies to which data class from **Chapter 18** /
+> gateway's to define. Read which obligation applies to which data class from **Chapter 19** /
 > Part VI and your legal function. Fail closed: an out-of-region fallback defeats the control.
 
 ---
@@ -316,7 +316,7 @@ reason := sprintf("no in-region route for data class %v", [input.data_class]) if
 
 **Intent.** A tamper-evident record of policy decisions and egress, the raw material for assurance
 (**Chapter 17**) and for the obligations the gateway helps evidence (crosswalk owned in **Chapter
-18**). Design owned in **Chapter 8**.
+19**). Design owned in **Chapter 8**.
 
 ```rego
 # ILLUSTRATIVE ONLY: pseudo-policy, not runnable.
@@ -347,7 +347,7 @@ violation := "decision not written to the audit trail" if not input.audit_writte
 
 > **Guidance.** The audit trail is **evidence material**, not the obligation. It *helps evidence*
 > consistent logging, residency routing, redaction, and audit, but "helps evidence" is not
-> "discharges." Map the trail to specific obligations via the **Chapter 18** crosswalk; never read
+> "discharges." Map the trail to specific obligations via the **Chapter 19** crosswalk; never read
 > an obligation off this trail. Make it append-only and integrity-protected so it survives scrutiny
 > from an auditor (Chapter 17).
 
@@ -360,7 +360,7 @@ into it as policy-as-code. Then write down, against the **OWASP map** in `README
 gateway does **not** cover, and confirm each gap is owned by its real control: identity, least
 privilege and segregation of duties (Chapter 8), supply-chain hardening (Chapter 8), guardrail
 design (Chapter 10), runtime defence (Chapter 11). For LLM03, LLM04, LLM06, and LLM08 the gateway is
-**not** the answer, and the map names the control that is. Finally, use the **Chapter 18** crosswalk
+**not** the answer, and the map names the control that is. Finally, use the **Chapter 19** crosswalk
 to map the gateway's evidence to obligations, without ever treating the gateway as the obligation's
 discharge.
 

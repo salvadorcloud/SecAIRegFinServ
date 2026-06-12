@@ -10,7 +10,7 @@ every missing or stale item into a logged finding you close *before* an auditor 
 **When to use.** Maintain continuously. A gap found here before the external assessor or the
 supervisor finds it is the difference between a managed programme and a surprised one. See
 **Chapter 17** of the book for the standing-gap-register discipline and the design /
-operating / oversight evidence model; see **Chapter 18** for the obligation mapping this
+operating / oversight evidence model; see **Chapter 19** for the obligation mapping this
 register does not restate.
 
 **How it fits.** Rows here feed the assurance map's "Where it lives" and "Last verified"

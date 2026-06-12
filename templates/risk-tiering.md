@@ -20,6 +20,6 @@ agreed human-in-the-loop pattern (Chapter 8) sets a control floor regardless of 
 **Control depth & oversight this tier requires:** ____
 **Owner / date / review cadence:** ____
 
-> *This internal tier is not the EU AI Act risk classification; reconcile the two separately per Chapter 20.*
+> *This internal tier is not the EU AI Act risk classification; reconcile the two separately per Chapter 21.*
 
 > *Template, provided "as is", not legal or compliance advice. Adapt to your environment and obligations; the owning chapter in the book governs.*
