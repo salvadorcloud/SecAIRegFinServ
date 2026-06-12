@@ -13,7 +13,7 @@ continuously. Reach for it when you are standing up internal-audit readiness, as
 SOC 2 / ISO 42001 evidence pack, preparing a board assurance summary, or answering a
 supervisor's "show me how this AI system is controlled, and prove it." See **Chapter 17**
 of the book for the full design/operating/oversight evidence model and how to assemble the
-map; see **Chapter 18** for the obligation mapping this template deliberately does not
+map; see **Chapter 19** for the obligation mapping this template deliberately does not
 restate.
 
 **How it fits the other templates.** Seed rows from your use-case inventory and risk
@@ -42,7 +42,7 @@ missing or stale evidence in the **evidence register** (sibling file
    (quarterly, or on material change) for design and oversight evidence. Stale evidence is a
    finding: log it in the evidence register.
 6. **Cross-reference, never restate, obligations.** Link a control to the obligation(s) it
-   helps satisfy via the master crosswalk (Chapter 18). Do not paraphrase any obligation,
+   helps satisfy via the master crosswalk (Chapter 19). Do not paraphrase any obligation,
    clause, threshold, or date into this map.
 
 ---
@@ -57,7 +57,7 @@ missing or stale evidence in the **evidence register** (sibling file
 | Period covered | |
 | Last full refresh | |
 | Linked use-case inventory | |
-| Linked crosswalk (obligations) | Chapter 18 master crosswalk |
+| Linked crosswalk (obligations) | Chapter 19 master crosswalk |
 
 ---
 

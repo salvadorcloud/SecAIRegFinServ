@@ -1,29 +1,29 @@
 num,control,owning_chapter,DORA,EU_AI_Act,FCA_PRA,PCI_DSS,UK_EU_GDPR,NIS2_UKNIS_CRA,owner,status_gap,source
-1,Autonomy-spectrum classification & agent-topology mapping,Chapter 2,,,,,,,,,Chapter 18 / book Part VI
-2,Deployment topology & data-residency selection,Chapter 2,,,,,,,,,Chapter 18 / book Part VI
-3,AI threat-model template & framework application,Chapter 4,,,,,,,,,Chapter 18 / book Part VI
-4,FS abuse-case assessment,Chapter 4,,,,,,,,,Chapter 18 / book Part VI
-5,Prompt-injection defence (direct & indirect),Chapter 5,,,,,,,,,Chapter 18 / book Part VI
-6,Excessive-autonomy & tool-abuse mitigation,Chapter 5,,,,,,,,,Chapter 18 / book Part VI
-7,MCP / connector supply-chain threat assessment,Chapter 6,,,,,,,,,Chapter 18 / book Part VI
-8,Data-exfiltration-path control,Chapter 6,,,,,,,,,Chapter 18 / book Part VI
-9,Model/data-poisoning & provenance control,Chapter 7,,,,,,,,,Chapter 18 / book Part VI
-10,Agent identity & least-privilege,Chapter 8,,,,,,,,,Chapter 18 / book Part VI
-11,Decisioning-domain human-in-the-loop pattern,Chapter 8,,,,,,,,,Chapter 18 / book Part VI
-12,MCP / model supply-chain hardening,Chapter 8,,,,,,,,,Chapter 18 / book Part VI
-13,AI gateway / control-plane,Chapter 8,,,,,,,,,Chapter 18 / book Part VI
-14,Control-placement motif (gateway/runtime/MCP/endpoint),Chapter 8,,,,,,,,,Chapter 18 / book Part VI
-15,Gateway-config to obligations-evidenced crosswalk,Chapter 18,,,,,,,,,Chapter 18 / book Part VI
-16,AI data-protection control,Chapter 9,,,,,,,,,Chapter 18 / book Part VI
-17,PCI scope-reduction architecture,Chapter 9,,,,,,,,,Chapter 18 / book Part VI
-18,AI-provider data-handling contracts (ZDR etc.),Chapter 15,,,,,,,,,Chapter 18 / book Part VI
-19,AI observability / telemetry,Chapter 11,,,,,,,,,Chapter 18 / book Part VI
-20,Runtime containment (kill switch / circuit breaker),Chapter 11,,,,,,,,,Chapter 18 / book Part VI
-21,Resilience & IR control design,Chapter 12,,,,,,,,,Chapter 18 / book Part VI
-22,AI governance operating model,Chapter 13,,,,,,,,,Chapter 18 / book Part VI
-23,Firm-internal AI risk-tiering,Chapter 13,,,,,,,,,Chapter 18 / book Part VI
-24,MRM-as-control for genAI,Chapter 14,,,,,,,,,Chapter 18 / book Part VI
-25,Third-party AI governance,Chapter 15,,,,,,,,,Chapter 18 / book Part VI
-26,FAIR risk quantification,Chapter 16,,,,,,,,,Chapter 18 / book Part VI
-27,Assurance / evidence map,Chapter 17,,,,,,,,,Chapter 18 / book Part VI
-28,Master control-by-regime crosswalk,Chapter 18,,,,,,,,,Chapter 18 / book Part VI
+1,Autonomy-spectrum classification & agent-topology mapping,Chapter 2,,,,,,,,,Chapter 19 / book Part VI
+2,Deployment topology & data-residency selection,Chapter 2,,,,,,,,,Chapter 19 / book Part VI
+3,AI threat-model template & framework application,Chapter 4,,,,,,,,,Chapter 19 / book Part VI
+4,FS abuse-case assessment,Chapter 4,,,,,,,,,Chapter 19 / book Part VI
+5,Prompt-injection defence (direct & indirect),Chapter 5,,,,,,,,,Chapter 19 / book Part VI
+6,Excessive-autonomy & tool-abuse mitigation,Chapter 5,,,,,,,,,Chapter 19 / book Part VI
+7,MCP / connector supply-chain threat assessment,Chapter 6,,,,,,,,,Chapter 19 / book Part VI
+8,Data-exfiltration-path control,Chapter 6,,,,,,,,,Chapter 19 / book Part VI
+9,Model/data-poisoning & provenance control,Chapter 7,,,,,,,,,Chapter 19 / book Part VI
+10,Agent identity & least-privilege,Chapter 8,,,,,,,,,Chapter 19 / book Part VI
+11,Decisioning-domain human-in-the-loop pattern,Chapter 8,,,,,,,,,Chapter 19 / book Part VI
+12,MCP / model supply-chain hardening,Chapter 8,,,,,,,,,Chapter 19 / book Part VI
+13,AI gateway / control-plane,Chapter 8,,,,,,,,,Chapter 19 / book Part VI
+14,Control-placement motif (gateway/runtime/MCP/endpoint),Chapter 8,,,,,,,,,Chapter 19 / book Part VI
+15,Gateway-config to obligations-evidenced crosswalk,Chapter 19,,,,,,,,,Chapter 19 / book Part VI
+16,AI data-protection control,Chapter 9,,,,,,,,,Chapter 19 / book Part VI
+17,PCI scope-reduction architecture,Chapter 9,,,,,,,,,Chapter 19 / book Part VI
+18,AI-provider data-handling contracts (ZDR etc.),Chapter 15,,,,,,,,,Chapter 19 / book Part VI
+19,AI observability / telemetry,Chapter 11,,,,,,,,,Chapter 19 / book Part VI
+20,Runtime containment (kill switch / circuit breaker),Chapter 11,,,,,,,,,Chapter 19 / book Part VI
+21,Resilience & IR control design,Chapter 12,,,,,,,,,Chapter 19 / book Part VI
+22,AI governance operating model,Chapter 13,,,,,,,,,Chapter 19 / book Part VI
+23,Firm-internal AI risk-tiering,Chapter 13,,,,,,,,,Chapter 19 / book Part VI
+24,MRM-as-control for genAI,Chapter 14,,,,,,,,,Chapter 19 / book Part VI
+25,Third-party AI governance,Chapter 15,,,,,,,,,Chapter 19 / book Part VI
+26,FAIR risk quantification,Chapter 16,,,,,,,,,Chapter 19 / book Part VI
+27,Assurance / evidence map,Chapter 17,,,,,,,,,Chapter 19 / book Part VI
+28,Master control-by-regime crosswalk,Chapter 19,,,,,,,,,Chapter 19 / book Part VI

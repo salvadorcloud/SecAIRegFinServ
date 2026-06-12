@@ -22,13 +22,13 @@ scratch.
   OPA-style rego-like sketches that are **clearly illustrative**. They will not run as-is on any
   gateway, proxy, policy engine, or SDK. Translate the intent into your own tooling.
 - It is **not** the obligation source. The gateway *helps evidence* obligations; it does not
-  discharge them. The gateway-configuration-to-obligations crosswalk is owned in **Chapter 18**,
+  discharge them. The gateway-configuration-to-obligations crosswalk is owned in **Chapter 19**,
   which references the Part VI obligation claims; read your obligations there, never off this pack.
 - It does **not** replace the surrounding controls. See "Necessary, but not sufficient" below.
 
 > Provided **"as is"**, without warranty of any kind. These are practitioner aids, **not legal or
 > compliance advice**. The owning chapter in the book governs: where this pack and **Chapter 8**
-> (or, for obligations, **Chapter 18** / Part VI) ever appear to diverge, **the book governs**.
+> (or, for obligations, **Chapter 19** / Part VI) ever appear to diverge, **the book governs**.
 > Review and adapt every policy to your own environment and obligations before you rely on it.
 
 ## What's in the pack
@@ -49,7 +49,7 @@ scratch.
    write down, explicitly, the risks the gateway does **not** cover and confirm each is owned by
    its real control (identity and least privilege, supply-chain hardening, guardrail design,
    runtime defence).
-4. Use the **Chapter 18** crosswalk to map the gateway's evidence (logging, residency routing,
+4. Use the **Chapter 19** crosswalk to map the gateway's evidence (logging, residency routing,
    redaction, audit) to obligations. Do not read any obligation off this pack.
 
 ## The capabilities the gateway centralises (Chapter 8)
